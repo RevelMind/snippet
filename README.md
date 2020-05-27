@@ -8,3 +8,10 @@ let snippet = require("snippetjs");
 
 console.log(snippet.getSnippets());
 ```
+
+## Installing
+Install Snippet via NPM or Yarn:
+```sh
+npm install snippetjs
+yarn add snippetjs
+```
