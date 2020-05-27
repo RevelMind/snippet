@@ -1,0 +1,11 @@
+{
+  "name": "snippet",
+  "version": "1.0.0",
+  "description": "An open source library of free to use code snippets.",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Zack Pace",
+  "license": "MIT"
+}
