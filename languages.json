@@ -1,5 +1,6 @@
 {
     "javascript": [".js"],
     "c#": [".cs"],
-    "java": [".java"]
+    "java": [".java"],
+    "go": [".go"]
 }
