@@ -1,3 +1,4 @@
 {
-    "javascript": [".js"]
+    "javascript": [".js"],
+    "c#": [".cs"]
 }
