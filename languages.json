@@ -2,5 +2,6 @@
     "javascript": [".js"],
     "c#": [".cs"],
     "java": [".java"],
-    "go": [".go"]
+    "go": [".go"],
+    "c++": [".cpp", ".cc", ".hh", ".hpp"]
 }
