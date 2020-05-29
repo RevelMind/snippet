@@ -1,6 +1,6 @@
 {
   "name": "@revelmind/snippet",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A library of free to use code snippets",
   "main": "dist/index.js",
   "directories": {
@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/RevelMind/codesnippets.git"
+    "url": "git+https://github.com/RevelMind/snippet.git"
   },
   "keywords": [
     "snippet",
