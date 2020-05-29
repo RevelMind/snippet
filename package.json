@@ -1,16 +1,32 @@
 {
-  "name": "codesnippets",
+  "name": "@revelmind/snippet",
   "version": "1.0.0",
-  "description": "An open source library of free to use code snippets.",
+  "description": "A library of free to use code snippets",
   "main": "dist/index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "dependencies": {
+    "colors": "^1.4.0",
+    "glob": "^7.1.6"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RevelMind/codesnippets.git"
+  },
+  "keywords": [
+    "snippet",
+    "code",
+    "snippets",
+    "codesnippets"
+  ],
   "author": "Zack Pace",
   "license": "MIT",
-  "dependencies": {
-    "@types/node": "^14.0.5",
-    "colors": "^1.4.0",
-    "glob": "^7.1.6"
-  }
+  "bugs": {
+    "url": "https://github.com/RevelMind/codesnippets/issues"
+  },
+  "homepage": "https://github.com/RevelMind/codesnippets#readme"
 }
