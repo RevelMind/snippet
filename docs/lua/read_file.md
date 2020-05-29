@@ -1,0 +1,2 @@
+## Read File
+This script reads the file `hello_world.lua` in the same directory as the current script.  If the file doesn't exist, it outputs nothing.  If the file does exist, it logs it to the console.
