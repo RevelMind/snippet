@@ -28,9 +28,7 @@ files.forEach(file => {
     if (lang === undefined)
         throw new Error(`Language ${language} does not exist.`);
 
-    lang.forEach(ext => {
-        fn = path.basename(fn, ext); /* Attempt to remove file extension. */
-    });
+    fn = fn.split('.')[0];
     /* Add snippet to array. */
     snippets[language].push({
         Name: fn,
