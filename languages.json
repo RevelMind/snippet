@@ -1,3 +1,10 @@
 {
-    "javascript": [".js"]
+    "javascript": [".js"],
+    "c#": [".cs"],
+    "java": [".java"],
+    "go": [".go"],
+    "c++": [".cpp", ".cc", ".hh", ".hpp"],
+    "c": [".c", ".h"],
+    "kotlin": [".kt"],
+    "rust": [".rs"]
 }
