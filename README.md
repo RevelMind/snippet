@@ -12,6 +12,6 @@ console.log(snippet.getSnippets());
 ## Installing
 Install Snippet via NPM or Yarn:
 ```sh
-npm install snippetjs
-yarn add snippetjs
+npm install @revelmind/snippet
+yarn add @revelmind/snippet
 ```
