@@ -1,5 +1,5 @@
 {
-  "name": "snippetjs",
+  "name": "codesnippets",
   "version": "1.0.0",
   "description": "An open source library of free to use code snippets.",
   "main": "dist/index.js",
