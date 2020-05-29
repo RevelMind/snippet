@@ -8,25 +8,20 @@ let snippet_log = function(msg) {
 }
 
 let snippets = {};
-let langs = JSON.parse(fs.readFileSync(path.resolve(__dirname, '../languages.json')).toString());
-
-Object.keys(langs).forEach(lang => {
-    snippets[lang] = []
-});
 
 let files = glob.sync(path.resolve(__dirname, '../snippets/**/*'));
 files.forEach(file => {
     file = path.resolve(file);
     let language = path.basename(path.dirname(file)); /* Name of file's folder, AKA the name of the language. */
     let fn = path.basename(file); /* Name of file without directory name. */
-    let lang = langs[language];
+
+    if (snippets[language] === undefined)
+        snippets[language] = [];
+
     if (language == 'snippets')
         return;
     else if (fs.lstatSync(file).isDirectory())
         return;
-
-    if (lang === undefined)
-        throw new Error(`Language ${language} does not exist.`);
 
     fn = fn.split('.')[0];
     /* Add snippet to array. */
